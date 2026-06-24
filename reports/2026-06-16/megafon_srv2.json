@@ -1,0 +1,134 @@
+{
+  "generated_at": "2026-06-16T21:01:50Z",
+  "server": "116.203.224.122:443",
+  "version": "1.1.1",
+  "strategies": [
+    {
+      "id": "quic_salamander",
+      "name": "QUIC Salamander",
+      "status": "timeout",
+      "latency_ms": null,
+      "error": "QUIC Salamander dial failed: timeout: no recent network activity"
+    },
+    {
+      "id": "reality",
+      "name": "REALITY Protocol",
+      "status": "timeout",
+      "latency_ms": null,
+      "error": "reality: serverhello read failed: read tcp 192.168.19.146:47830-\u003e116.203.224.122:443: i/o timeout"
+    },
+    {
+      "id": "http_polling",
+      "name": "HTTP Polling (meek-style)",
+      "status": "timeout",
+      "latency_ms": null,
+      "error": "http_polling: init failed: context deadline exceeded"
+    },
+    {
+      "id": "http2_stego",
+      "name": "HTTP/2 Steganography",
+      "status": "timeout",
+      "latency_ms": null,
+      "error": "context deadline exceeded"
+    },
+    {
+      "id": "websocket_padded",
+      "name": "WebSocket Salamander",
+      "status": "ok",
+      "latency_ms": 345
+    },
+    {
+      "id": "morph_Yandex Video",
+      "name": "Traffic Morph (Yandex Video)",
+      "status": "ok",
+      "latency_ms": 345
+    },
+    {
+      "id": "morph_VK Video",
+      "name": "Traffic Morph (VK Video)",
+      "status": "ok",
+      "latency_ms": 351
+    },
+    {
+      "id": "morph_Baidu Video",
+      "name": "Traffic Morph (Baidu Video)",
+      "status": "ok",
+      "latency_ms": 415
+    },
+    {
+      "id": "morph_Aparat Video",
+      "name": "Traffic Morph (Aparat Video)",
+      "status": "ok",
+      "latency_ms": 346
+    },
+    {
+      "id": "geneva_russia",
+      "name": "Geneva (Russia TSPU)",
+      "status": "ok",
+      "latency_ms": 414
+    },
+    {
+      "id": "geneva_china",
+      "name": "Geneva (China GFW)",
+      "status": "ok",
+      "latency_ms": 356
+    },
+    {
+      "id": "geneva_iran",
+      "name": "Geneva (Iran DPI)",
+      "status": "timeout",
+      "latency_ms": null,
+      "error": "geneva tls handshake: context deadline exceeded"
+    },
+    {
+      "id": "antiprobe",
+      "name": "Anti-Probe Resistance",
+      "status": "timeout",
+      "latency_ms": null,
+      "error": "context deadline exceeded"
+    },
+    {
+      "id": "confusion_0",
+      "name": "Protocol Confusion (DNS/TLS)",
+      "status": "ok",
+      "latency_ms": 309
+    },
+    {
+      "id": "confusion_1",
+      "name": "Protocol Confusion (HTTP/TLS)",
+      "status": "ok",
+      "latency_ms": 255
+    },
+    {
+      "id": "confusion_2",
+      "name": "Protocol Confusion (SSH/TLS)",
+      "status": "ok",
+      "latency_ms": 255
+    },
+    {
+      "id": "confusion_3",
+      "name": "Protocol Confusion (SMTP/TLS)",
+      "status": "ok",
+      "latency_ms": 255
+    },
+    {
+      "id": "confusion_4",
+      "name": "Protocol Confusion (Multi-Layer)",
+      "status": "ok",
+      "latency_ms": 260
+    },
+    {
+      "id": "state_exhaustion",
+      "name": "State Table Exhaustion",
+      "status": "ok",
+      "latency_ms": 2211
+    }
+  ],
+  "summary": {
+    "total": 19,
+    "available": 13,
+    "failed": 6,
+    "timeout": 6
+  },
+  "fastest": "confusion_2"
+}

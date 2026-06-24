@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-05-05T22:06:37Z",
+  "server": "31.44.3.165:9443",
+  "version": "1.1.1",
+  "strategies": [
+    {
+      "id": "quic_salamander",
+      "name": "QUIC Salamander",
+      "status": "ok",
+      "latency_ms": 166
+    },
+    {
+      "id": "reality",
+      "name": "REALITY Protocol",
+      "status": "ok",
+      "latency_ms": 338
+    },
+    {
+      "id": "http_polling",
+      "name": "HTTP Polling (meek-style)",
+      "status": "ok",
+      "latency_ms": 220
+    },
+    {
+      "id": "http2_stego",
+      "name": "HTTP/2 Steganography",
+      "status": "timeout",
+      "latency_ms": null,
+      "error": "read tcp 192.168.152.3:44464-\u003e31.44.3.165:9443: i/o timeout"
+    },
+    {
+      "id": "websocket_padded",
+      "name": "WebSocket Salamander",
+      "status": "timeout",
+      "latency_ms": null,
+      "error": "websocket_padded: failed to read status: read tcp 192.168.152.3:44428-\u003e31.44.3.165:9443: i/o timeout"
+    },
+    {
+      "id": "morph_Yandex Video",
+      "name": "Traffic Morph (Yandex Video)",
+      "status": "ok",
+      "latency_ms": 975
+    },
+    {
+      "id": "morph_VK Video",
+      "name": "Traffic Morph (VK Video)",
+      "status": "ok",
+      "latency_ms": 978
+    },
+    {
+      "id": "morph_Baidu Video",
+      "name": "Traffic Morph (Baidu Video)",
+      "status": "ok",
+      "latency_ms": 972
+    },
+    {
+      "id": "morph_Aparat Video",
+      "name": "Traffic Morph (Aparat Video)",
+      "status": "ok",
+      "latency_ms": 975
+    },
+    {
+      "id": "geneva_russia",
+      "name": "Geneva (Russia TSPU)",
+      "status": "ok",
+      "latency_ms": 290
+    },
+    {
+      "id": "geneva_china",
+      "name": "Geneva (China GFW)",
+      "status": "ok",
+      "latency_ms": 217
+    },
+    {
+      "id": "geneva_iran",
+      "name": "Geneva (Iran DPI)",
+      "status": "ok",
+      "latency_ms": 217
+    },
+    {
+      "id": "antiprobe",
+      "name": "Anti-Probe Resistance",
+      "status": "ok",
+      "latency_ms": 975
+    },
+    {
+      "id": "confusion_0",
+      "name": "Protocol Confusion (DNS/TLS)",
+      "status": "ok",
+      "latency_ms": 172
+    },
+    {
+      "id": "confusion_1",
+      "name": "Protocol Confusion (HTTP/TLS)",
+      "status": "ok",
+      "latency_ms": 169
+    },
+    {
+      "id": "confusion_2",
+      "name": "Protocol Confusion (SSH/TLS)",
+      "status": "ok",
+      "latency_ms": 164
+    },
+    {
+      "id": "confusion_3",
+      "name": "Protocol Confusion (SMTP/TLS)",
+      "status": "ok",
+      "latency_ms": 178
+    },
+    {
+      "id": "confusion_4",
+      "name": "Protocol Confusion (Multi-Layer)",
+      "status": "ok",
+      "latency_ms": 176
+    },
+    {
+      "id": "state_exhaustion",
+      "name": "State Table Exhaustion",
+      "status": "ok",
+      "latency_ms": 2091
+    }
+  ],
+  "summary": {
+    "total": 19,
+    "available": 17,
+    "failed": 2,
+    "timeout": 2
+  },
+  "fastest": "confusion_2"
+}

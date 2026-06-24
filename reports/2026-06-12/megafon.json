@@ -1,0 +1,131 @@
+{
+  "generated_at": "2026-06-12T21:01:13Z",
+  "server": "31.44.3.165:443",
+  "version": "1.1.1",
+  "strategies": [
+    {
+      "id": "quic_salamander",
+      "name": "QUIC Salamander",
+      "status": "ok",
+      "latency_ms": 342
+    },
+    {
+      "id": "reality",
+      "name": "REALITY Protocol",
+      "status": "ok",
+      "latency_ms": 324
+    },
+    {
+      "id": "http_polling",
+      "name": "HTTP Polling (meek-style)",
+      "status": "timeout",
+      "latency_ms": null,
+      "error": "http_polling: init failed: context deadline exceeded"
+    },
+    {
+      "id": "http2_stego",
+      "name": "HTTP/2 Steganography",
+      "status": "blocked",
+      "latency_ms": null,
+      "error": "read tcp 192.168.19.147:50674-\u003e31.44.3.165:443: read: connection reset by peer"
+    },
+    {
+      "id": "websocket_padded",
+      "name": "WebSocket Salamander",
+      "status": "ok",
+      "latency_ms": 359
+    },
+    {
+      "id": "morph_Yandex Video",
+      "name": "Traffic Morph (Yandex Video)",
+      "status": "ok",
+      "latency_ms": 437
+    },
+    {
+      "id": "morph_VK Video",
+      "name": "Traffic Morph (VK Video)",
+      "status": "ok",
+      "latency_ms": 444
+    },
+    {
+      "id": "morph_Baidu Video",
+      "name": "Traffic Morph (Baidu Video)",
+      "status": "ok",
+      "latency_ms": 443
+    },
+    {
+      "id": "morph_Aparat Video",
+      "name": "Traffic Morph (Aparat Video)",
+      "status": "ok",
+      "latency_ms": 443
+    },
+    {
+      "id": "geneva_russia",
+      "name": "Geneva (Russia TSPU)",
+      "status": "ok",
+      "latency_ms": 460
+    },
+    {
+      "id": "geneva_china",
+      "name": "Geneva (China GFW)",
+      "status": "ok",
+      "latency_ms": 341
+    },
+    {
+      "id": "geneva_iran",
+      "name": "Geneva (Iran DPI)",
+      "status": "timeout",
+      "latency_ms": null,
+      "error": "geneva tls handshake: context deadline exceeded"
+    },
+    {
+      "id": "antiprobe",
+      "name": "Anti-Probe Resistance",
+      "status": "ok",
+      "latency_ms": 1100
+    },
+    {
+      "id": "confusion_0",
+      "name": "Protocol Confusion (DNS/TLS)",
+      "status": "ok",
+      "latency_ms": 305
+    },
+    {
+      "id": "confusion_1",
+      "name": "Protocol Confusion (HTTP/TLS)",
+      "status": "ok",
+      "latency_ms": 218
+    },
+    {
+      "id": "confusion_2",
+      "name": "Protocol Confusion (SSH/TLS)",
+      "status": "ok",
+      "latency_ms": 263
+    },
+    {
+      "id": "confusion_3",
+      "name": "Protocol Confusion (SMTP/TLS)",
+      "status": "ok",
+      "latency_ms": 299
+    },
+    {
+      "id": "confusion_4",
+      "name": "Protocol Confusion (Multi-Layer)",
+      "status": "ok",
+      "latency_ms": 323
+    },
+    {
+      "id": "state_exhaustion",
+      "name": "State Table Exhaustion",
+      "status": "ok",
+      "latency_ms": 2188
+    }
+  ],
+  "summary": {
+    "total": 19,
+    "available": 16,
+    "failed": 3,
+    "timeout": 2
+  },
+  "fastest": "confusion_1"
+}

@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-06-02T21:00:18Z",
+  "server": "31.44.3.165:9443",
+  "version": "1.1.3",
+  "strategies": [
+    {
+      "id": "quic_salamander",
+      "name": "QUIC Salamander",
+      "status": "ok",
+      "latency_ms": 285
+    },
+    {
+      "id": "reality",
+      "name": "REALITY Protocol",
+      "status": "ok",
+      "latency_ms": 412
+    },
+    {
+      "id": "http_polling",
+      "name": "HTTP Polling (meek-style)",
+      "status": "ok",
+      "latency_ms": 295
+    },
+    {
+      "id": "http2_stego",
+      "name": "HTTP/2 Steganography",
+      "status": "blocked",
+      "latency_ms": null,
+      "error": "read tcp 192.168.152.3:55788-\u003e31.44.3.165:9443: read: connection reset by peer"
+    },
+    {
+      "id": "websocket_padded",
+      "name": "WebSocket Salamander",
+      "status": "ok",
+      "latency_ms": 294
+    },
+    {
+      "id": "morph_Yandex Video",
+      "name": "Traffic Morph (Yandex Video)",
+      "status": "ok",
+      "latency_ms": 295
+    },
+    {
+      "id": "morph_VK Video",
+      "name": "Traffic Morph (VK Video)",
+      "status": "ok",
+      "latency_ms": 293
+    },
+    {
+      "id": "morph_Baidu Video",
+      "name": "Traffic Morph (Baidu Video)",
+      "status": "ok",
+      "latency_ms": 290
+    },
+    {
+      "id": "morph_Aparat Video",
+      "name": "Traffic Morph (Aparat Video)",
+      "status": "ok",
+      "latency_ms": 300
+    },
+    {
+      "id": "geneva_russia",
+      "name": "Geneva (Russia TSPU)",
+      "status": "ok",
+      "latency_ms": 355
+    },
+    {
+      "id": "geneva_china",
+      "name": "Geneva (China GFW)",
+      "status": "ok",
+      "latency_ms": 297
+    },
+    {
+      "id": "geneva_iran",
+      "name": "Geneva (Iran DPI)",
+      "status": "ok",
+      "latency_ms": 305
+    },
+    {
+      "id": "antiprobe",
+      "name": "Anti-Probe Resistance",
+      "status": "ok",
+      "latency_ms": 1057
+    },
+    {
+      "id": "confusion_0",
+      "name": "Protocol Confusion (DNS/TLS)",
+      "status": "ok",
+      "latency_ms": 250
+    },
+    {
+      "id": "confusion_1",
+      "name": "Protocol Confusion (HTTP/TLS)",
+      "status": "ok",
+      "latency_ms": 243
+    },
+    {
+      "id": "confusion_2",
+      "name": "Protocol Confusion (SSH/TLS)",
+      "status": "ok",
+      "latency_ms": 236
+    },
+    {
+      "id": "confusion_3",
+      "name": "Protocol Confusion (SMTP/TLS)",
+      "status": "ok",
+      "latency_ms": 247
+    },
+    {
+      "id": "confusion_4",
+      "name": "Protocol Confusion (Multi-Layer)",
+      "status": "ok",
+      "latency_ms": 248
+    },
+    {
+      "id": "state_exhaustion",
+      "name": "State Table Exhaustion",
+      "status": "ok",
+      "latency_ms": 2166
+    }
+  ],
+  "summary": {
+    "total": 19,
+    "available": 18,
+    "failed": 1,
+    "timeout": 0
+  },
+  "fastest": "confusion_2"
+}
